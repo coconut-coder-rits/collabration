@@ -3,10 +3,467 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Uniswa Exports &amp; Imports</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>This is a collaborative document.</p>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__logo">
+          <div class="logo-mark">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <div class="logo-text">
+            <span class="logo-text__main">UNISWA</span>
+            <span class="logo-text__sub">Exports &amp; Imports</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#home" class="nav__link">Home</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#products" class="nav__link">Products</a>
+          <a href="#contact" class="nav__link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero__bg-pattern"></div>
+
+      <div class="hero__content">
+        <p class="hero__tagline">India's Finest Agro Commodities</p>
+        <h1 class="hero__title">
+          Nature's Best,<br />
+          <span>Globally Delivered</span>
+        </h1>
+        <p class="hero__desc">
+          Premium spices, seeds, millets &amp; oil commodities sourced from the
+          heart of India — trusted by buyers across the globe.
+        </p>
+        <div class="hero__actions">
+          <a href="#products" class="btn btn--primary">
+            <i class="fa-solid fa-seedling"></i> Explore Products
+          </a>
+          <a href="#contact" class="btn btn--light-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__badge-row">
+          <div class="hero__badge hero__badge--a">
+            <i class="fa-solid fa-mortar-pestle"></i>
+            <p>Spices &amp; Seeds</p>
+          </div>
+          <div class="hero__badge hero__badge--b">
+            <i class="fa-solid fa-pepper-hot"></i>
+            <p>Chilli &amp; Ginger</p>
+          </div>
+          <div class="hero__badge hero__badge--c">
+            <i class="fa-solid fa-wheat-awn"></i>
+            <p>Millets</p>
+          </div>
+          <div class="hero__badge hero__badge--d">
+            <i class="fa-solid fa-oil-can"></i>
+            <p>Oil Seeds</p>
+          </div>
+        </div>
+        <div class="hero__stat-strip">
+          <div class="hero__stat">
+            <span class="hero__stat-num">16+</span>
+            <span class="hero__stat-lbl">Categories</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">100%</span>
+            <span class="hero__stat-lbl">Natural</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">Global</span>
+            <span class="hero__stat-lbl">Reach</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about">
+      <div class="section-container">
+        <div class="about__grid">
+          <div class="about__text">
+            <span class="section-label">Who We Are</span>
+            <h2 class="section-title">A Legacy of <em>Quality</em> Trade</h2>
+            <p class="about__para">
+              Uniswa Exports &amp; Imports is a dedicated agro-commodity trading
+              company specialising in premium Indian spices, seeds, millets, and
+              oil products. We bridge the gap between India's finest farmers and
+              global markets with integrity and care.
+            </p>
+            <p class="about__para">
+              Our deep-rooted network of farmers and processors ensures that
+              every shipment meets the highest international standards — from
+              farm hygiene to export documentation.
+            </p>
+            <div class="about__stats">
+              <div class="stat">
+                <span class="stat__number">16+</span>
+                <span class="stat__label">Product Categories</span>
+              </div>
+              <div class="stat">
+                <span class="stat__number">100%</span>
+                <span class="stat__label">Natural Sourcing</span>
+              </div>
+              <div class="stat">
+                <span class="stat__number">Global</span>
+                <span class="stat__label">Export Reach</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__image-block">
+            <div class="about__image-card">
+              <i class="fa-solid fa-globe about__globe-icon"></i>
+              <p>
+                Exporting India's agricultural excellence to buyers worldwide,
+                with trust and transparency at every step.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section id="products" class="products">
+      <div class="section-container">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our <em>Products</em></h2>
+        <p class="products__intro">
+          From aromatic spices to oil seeds and dehydrated vegetables — premium
+          agro-commodities for international buyers.
+        </p>
+        <div class="products__grid">
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-mortar-pestle"></i>
+            </div>
+            <h3 class="product-card__name">Turmeric &amp; Byproducts</h3>
+            <p class="product-card__desc">
+              Raw turmeric, powder, and processed derivatives of the highest
+              curcumin content.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-pepper-hot"></i>
+            </div>
+            <h3 class="product-card__name">Chilli &amp; Byproducts</h3>
+            <p class="product-card__desc">
+              Whole dried chilli, chilli powder, and oleoresin from India's
+              prime chilli belts.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-circle-dot"></i>
+            </div>
+            <h3 class="product-card__name">Coconut &amp; Byproducts</h3>
+            <p class="product-card__desc">
+              Whole coconuts, desiccated coconut, coconut oil, and shell-based
+              products.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <h3 class="product-card__name">Fenugreek</h3>
+            <p class="product-card__desc">
+              Premium fenugreek seeds known for rich flavour and medicinal
+              properties.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-card__name">Cumin</h3>
+            <p class="product-card__desc">
+              Bold, aromatic cumin seeds carefully cleaned and graded for export
+              quality.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <h3 class="product-card__name">Cardamom</h3>
+            <p class="product-card__desc">
+              Fragrant green cardamom sourced from the misty hills of South
+              India.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-fire-flame-curved"></i>
+            </div>
+            <h3 class="product-card__name">Ginger &amp; Byproducts</h3>
+            <p class="product-card__desc">
+              Fresh ginger, dry ginger, ginger powder, and ginger oleoresin.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+            <h3 class="product-card__name">Tamarind</h3>
+            <p class="product-card__desc">
+              Raw tamarind blocks, paste, and seed-free processed tamarind.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <h3 class="product-card__name">Lemongrass</h3>
+            <p class="product-card__desc">
+              Fresh and dried lemongrass stalks and essential oil extracts.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-wheat-awn"></i>
+            </div>
+            <h3 class="product-card__name">Millets</h3>
+            <p class="product-card__desc">
+              Foxtail, finger, pearl, and barnyard millets in bulk quantities.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+            <h3 class="product-card__name">Black Pepper</h3>
+            <p class="product-card__desc">
+              Bold, pungent black pepper berries — the king of spices, export
+              graded.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <h3 class="product-card__name">Garlic &amp; Clove</h3>
+            <p class="product-card__desc">
+              Whole garlic bulbs, cloves, and garlic powder for bulk export
+              buyers.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-oil-can"></i>
+            </div>
+            <h3 class="product-card__name">Coconut Byproducts</h3>
+            <p class="product-card__desc">
+              Coconut flour, milk powder, coir, and activated charcoal from
+              shells.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3 class="product-card__name">
+              Dehydrated Onion, Garlic &amp; Ginger
+            </h3>
+            <p class="product-card__desc">
+              Flakes, granules, and powder — perfect for food processing
+              industries.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-jar"></i>
+            </div>
+            <h3 class="product-card__name">Oil Seeds &amp; Oil Meal</h3>
+            <p class="product-card__desc">
+              Cold-pressed oil seeds and residual meal for animal feed and
+              industry.
+            </p>
+          </div>
+
+          <div class="product-card product-card--wide">
+            <div class="product-card__icon">
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <h3 class="product-card__name">Seeds &amp; Meal Varieties</h3>
+            <p class="product-card__desc">
+              Soya, Rapeseed, Mustard, Rice Bran, Castor, Groundnut, Sesame,
+              Fennel, Coriander — seeds and oil meals available in bulk
+              quantities for global food and feed industries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="why-us">
+      <div class="section-container">
+        <span class="section-label section-label--light">Our Promise</span>
+        <h2 class="section-title section-title--light">
+          Why Choose <em>Uniswa?</em>
+        </h2>
+        <div class="why-us__grid">
+          <div class="why-card">
+            <i class="fa-solid fa-shield-halved why-card__icon"></i>
+            <h4>Quality Assured</h4>
+            <p>
+              Every product is tested and certified to meet international food
+              safety and export standards.
+            </p>
+          </div>
+          <div class="why-card">
+            <i class="fa-solid fa-handshake why-card__icon"></i>
+            <h4>Farmer-Rooted</h4>
+            <p>
+              Direct sourcing from verified farmers ensures fair pricing and
+              traceable supply chains.
+            </p>
+          </div>
+          <div class="why-card">
+            <i class="fa-solid fa-ship why-card__icon"></i>
+            <h4>Seamless Logistics</h4>
+            <p>
+              End-to-end export logistics including documentation, customs, and
+              freight management.
+            </p>
+          </div>
+          <div class="why-card">
+            <i class="fa-solid fa-earth-asia why-card__icon"></i>
+            <h4>Global Network</h4>
+            <p>
+              Trusted buyer relationships across Asia, the Middle East, Europe,
+              and Africa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div class="section-container">
+        <div class="contact__grid">
+          <div class="contact__info">
+            <span class="section-label section-label--light">Reach Us</span>
+            <h2 class="section-title section-title--light">
+              Let's Do Business <em>Together</em>
+            </h2>
+            <p class="contact__intro">
+              Interested in sourcing premium agro-commodities from India? We're
+              ready to serve your requirements with professionalism and speed.
+            </p>
+            <div class="contact__details">
+              <div class="contact__item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>info@uniswatrade.com</span>
+              </div>
+              <div class="contact__item">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 00000 00000</span>
+              </div>
+              <div class="contact__item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact__form-block">
+            <div class="contact__form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="you@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="product">Product Interest</label>
+                <input
+                  type="text"
+                  id="product"
+                  placeholder="e.g. Turmeric, Cumin…"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell us about your requirements"
+                ></textarea>
+              </div>
+              <button type="button" class="btn btn--primary btn--full">
+                <i class="fa-solid fa-paper-plane"></i> Send Enquiry
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <div class="logo-mark logo-mark--sm">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <div class="logo-text">
+            <span class="logo-text__main">UNISWA</span>
+            <span class="logo-text__sub">Exports &amp; Imports</span>
+          </div>
+        </div>
+        <p class="footer__copy">
+          © 2026 Uniswa Exports &amp; Imports. All rights reserved.
+        </p>
+        <div class="footer__socials">
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="#" aria-label="WhatsApp"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
